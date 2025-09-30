@@ -16,7 +16,7 @@ UIAPデバイスのアプリケーションを集約するリポジトリです�
 
 ```bash
 git clone https://github.com/YuukiUmeta-UIAP/UIAP-Devices.git
-cd app
+cd UIAP-Devices/app
 cp -r template your-app-title
 # Edit and commit then PR!
 ```
