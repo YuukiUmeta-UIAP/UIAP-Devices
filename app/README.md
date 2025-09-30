@@ -20,9 +20,9 @@ There are no restrictions on proprietary or commercial use when listing.
 
 # How to Add / 追加方法
 
-Use the PR template to add to this repository.
+Use the PR template to add to this repository. See [split-keyboard](split-keyboard) for an example of an edited template.
 
-このリポジトリへ追加するPRテンプレートを使用します。
+このリポジトリへ追加するPRテンプレートを使用します。テンプレートを編集した例は[split-keyboard](split-keyboard)を参照してください。
 
 ```bash
 git clone https://github.com/YuukiUmeta-UIAP/UIAP-Devices.git
