@@ -2,9 +2,7 @@
 
 工作する人向け(主に自分向け)に作りました。一般的な分割キーボードは左右を有線ケーブルで繋げ、PCへ接続されるUSBコネクタは中央付近にあります。せっかく分割するなら分割した空間を工作に利用したいと考え、左右を繋げず、USBコネクタを左右端にしました。
 
-<img src=".src/img/PXL_20250213_150136355.jpg" alt="分割状態" style="width:32%">
-<img src=".src/img/PXL_20250213_150242515.jpg" alt="左右くっつけ状態" style="width:32%">
-<img src=".src/img/PXL_20250213_150404449.jpg" alt="マイコンボードのマウント" style="width:32%">
+<img src=".src/img/PXL_20250213_150136355.jpg" alt="分割状態" style="width:32%"> <img src=".src/img/PXL_20250213_150242515.jpg" alt="左右くっつけ状態" style="width:32%"> <img src=".src/img/PXL_20250213_150404449.jpg" alt="マイコンボードのマウント" style="width:32%">
 
 # Status / ステータス
 
