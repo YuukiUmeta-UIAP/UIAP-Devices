@@ -2,7 +2,7 @@
 
 A repository that aggregates applications for UIAP devices.
 By aggregating applications as a pair of software and hardware under an Open-Source and Copyleft license, it improves convenience for device users.
-/
+
 UIAPデバイスのアプリケーションを集約するリポジトリです。
 アプリケーションをソフトウェアとハードウェアをセットにしてオープンソース・コピーレフトで集約することで、デバイスユーザの利便性を向上します。
 
@@ -12,7 +12,7 @@ UIAPデバイスのアプリケーションを集約するリポジトリです�
 Intellectual property added to this repository only becomes open source/copyleft.
 List copyrighted information in the [Just Links / リンク集](#just-links--リンク集) section.
 There are no restrictions on proprietary or commercial use when listing.
-/
+
 **UIAPはコピーライトを否定しているわけではありません。**
 このリポジトリの中に追加した知的財産がオープンソース・コピーレフトになるだけです。
 コピーライトな情報は[Just Links / リンク集](#just-links--リンク集)へ記載してください。
@@ -21,7 +21,7 @@ There are no restrictions on proprietary or commercial use when listing.
 # How to Add / 追加方法
 
 Use the PR template to add to this repository.
-/
+
 このリポジトリへ追加するPRテンプレートを使用します。
 
 ```bash
@@ -39,7 +39,7 @@ This list is incomplete.
 Any media format is fine, as long as it is accessible via URL, such as Twitter, personal blogs, or sharing services.
 You can also link to your own applications.
 Add and share them. PRs for any corrections or additions.
-/
+
 このリポジトリから独立している(無関係な)アプリケーションへのリンクリストです。
 リストは不完全です。
 **著作権やライセンスはリンク先の情報に従って下さい。**
@@ -51,7 +51,7 @@ URLアクセスできるものならツイッターや個人ブログ、シェ�
 ## Reproducible / 再現可能
 
 It contains all or part of the information necessary to reproduce the application.
-/
+
 アプリケーションを再現するために必要な情報が断片的もしくは完全に含まれているもの。
 
 - [“UIAPduino” の検索結果 | 創造技術実習 | とにかく、ものづくり！](https://robo164.com/?s=UIAPduino)
@@ -60,7 +60,7 @@ It contains all or part of the information necessary to reproduce the applicatio
 ## Crafts / 作品
 
 Introduction of applications that are clearly working and unique.
-/
+
 動作することが明らか、かつ、ユニークなアプリケーションを紹介したもの。
 
 - [I'm following the trend too: : r/cyberDeck](https://www.reddit.com/r/cyberDeck/comments/1jb4ria/im_following_the_trend_too/)
@@ -71,7 +71,7 @@ Introduction of applications that are clearly working and unique.
 
 Information that is beneficial when using the devices.
 It may need to be categorized or organized.
-/
+
 デバイスを利用するさいに有用な情報が含まれるもの。
 分類や整理が必要かも知れません。
 
@@ -88,7 +88,7 @@ It may need to be categorized or organized.
 Information that provides an objective view of the applicability of the devices.
 Objectivity must be carefully discussed.
 It may not be appropriate to include it in this repository.
-/
+
 デバイスの応用性についての客観的な見解が得られる情報が含まれるもの。
 客観性を慎重に議論する必要があります。
 本来はこのリポジトリに記載するべきではないかも知れません。
