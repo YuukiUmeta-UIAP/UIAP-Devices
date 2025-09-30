@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:0.981637;stroke-width:0.524303"
+       id="rect1442"
+       width="1920"
+       height="1080"
+       x="0"
+       y="0" />
+    <rect
+       style="fill:#4c50ff;fill-opacity:0.981637;stroke-width:0.632394"
+       id="rect234"
+       width="622.56281"
+       height="455.73538"
+       x="641.1593"
+       y="76.210564" />
+    <ellipse
+       style="fill:#ff4c5c;fill-opacity:0.981637;stroke-width:0.530239"
+       id="path894"
+       cx="1520.7556"
+       cy="753.19153"
+       rx="263.92239"
+       ry="262.17908" />
+    <path
+       style="fill:#fff04c;fill-opacity:0.981637;stroke-width:0.48"
+       id="path1000"
+       d="m 1528.1037,419.95727 40.1012,-443.27013 363.8326,256.36367 z"
+       transform="matrix(1.461493,0,0,1.461493,-1999.2204,423.35115)" />
+  </g>
+  <metadata
+     id="metadata3484">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
