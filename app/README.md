@@ -12,9 +12,14 @@ UIAPデバイスのアプリケーションを集約するリポジトリです�
 
 # How to Add / 追加方法
 
-In preparation. :(  
-準備中です。
-このリポジトリへPRして追加するためのテンプレートを準備しています。
+このリポジトリへPRして追加するためのテンプレートを使用します。
+
+```bash
+git clone https://github.com/YuukiUmeta-UIAP/UIAP-Devices.git
+cd app
+cp -r template your-app-title
+# Edit and commit then PR!
+```
 
 # Just Links / リンク集
 
