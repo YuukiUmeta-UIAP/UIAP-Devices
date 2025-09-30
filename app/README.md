@@ -10,12 +10,12 @@ UIAPデバイスのアプリケーションを集約するリポジトリです�
 
 **UIAP never deny copyright.**
 Intellectual property added to this repository only becomes open source/copyleft.
-List copyrighted information in the [Just Links / リンク集](#just-links--リンク集) section.
+List copyrighted information in the [Just Links](#just-links--リンク集) section.
 There are no restrictions on proprietary or commercial use when listing.
 
 **UIAPはコピーライトを否定しているわけではありません。**
 このリポジトリの中に追加した知的財産がオープンソース・コピーレフトになるだけです。
-コピーライトな情報は[Just Links / リンク集](#just-links--リンク集)へ記載してください。
+コピーライトな情報は[リンク集](#just-links--リンク集)へ記載してください。
 記載にプロプライエタリ・商用利用などの制約はありません。
 
 # How to Add / 追加方法
