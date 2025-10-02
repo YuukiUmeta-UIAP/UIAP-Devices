@@ -28,7 +28,62 @@
 
 # Program / プログラム
 
-https://github.com/YuukiUmeta-UIAP/rv003usb/tree/custom/main/demo_pikokey_hid
+- リポジトリ: https://github.com/YuukiUmeta-UIAP/rv003usb/tree/custom/main/demo_pikokey_hid
+- 前提環境：あらかじめ「最新のオリジナルch32fun開発環境ではじめる」でLチカまでしておきます。ビルド済みのバイナリファイルを書き込むだけ(ビルドしない)なら、Windowsなら[minichlink.exe](https://github.com/cnlohr/ch32fun/blob/master/minichlink/minichlink.exe)をダウンロードするだけでOKです。  
+    https://www.uiap.jp/uiapduino/pro-micro/ch32v003/v1dot4#with-ch32fun-development-environment
+
+## バイナリファイルを書き込む
+
+- 左用: [bin/pikokey_customed_for_split_keyboard_left_v1dot1_board.bin](bin/pikokey_customed_for_split_keyboard_left_v1dot1_board.bin)
+- 右用: [bin/pikokey_customed_for_split_keyboard_right_v1dot1_board.bin](bin/pikokey_customed_for_split_keyboard_left_v1dot1_board.bin)
+
+同時に2マイコンボードを書き込み待機させるとうまく書き込みできません。1ボードだけ書き込み待機させ、書き込みが終わったマイコンボードはUSBから外して下さい。
+
+```bash
+minichlink -c 0x1209b803 -w pikokey_customed_for_split_keyboard_left_v1dot1_board.bin flash // 左用の書き込み
+minichlink -c 0x1209b803 -w pikokey_customed_for_split_keyboard_right_v1dot1_board.bin flash // 右用の書き込み
+```
+
+## ソースコードからビルドする
+
+### 左キーボード
+
+左キーボード用のバイナリをビルドします。
+
+```bash
+git clone --recurse-submodules https://github.com/YuukiUmeta-UIAP/rv003usb.git
+cd rv003usb/demo_pikokey_hid
+make clean
+make build
+```
+
+左キーボード用のマイコンボードに書き込みます。
+
+```bash
+minichlink -c 0x1209b803 -w pikokey.bin flash
+```
+
+### 右キーボード
+
+help_functions.hの10行目のキーボード定義を2にします。1が左用で、2が右用です。
+
+```h
+// Set number from belows
+// 		1: Left V1.1 board
+// 		2: Right V1.1 board
+#define BOARD_LORR 2
+```
+
+同じようにビルドして右キーボード用のバイナリもマイコンボードに書き込みます。
+
+```bash
+make clean
+make build
+minichlink -c 0x1209b803 -w pikokey.bin flash
+```
+
+> [!TIP]
+> キーマップはhelp_functions.hの150行目ぐらいからあります。レイヤーの切り替えキーはHID_KEY_FNですが、キーマップに入れただけでは機能しないです。284行目付近でレイヤー切り替えキーの位置を定義すると動作します。
 
 # 開発過程
 
