@@ -2,13 +2,13 @@
 
 工作する人向け(主に自分向け)に作りました。一般的な分割キーボードは左右を有線ケーブルで繋げ、PCへ接続されるUSBコネクタは中央付近にあります。せっかく分割するなら分割した空間を工作に利用したいと考え、左右を繋げず、USBコネクタを左右端にしました。
 
-<img src=".src/img/PXL_20250213_150136355.jpg" alt="分割状態" style="width:32%"> <img src=".src/img/PXL_20250213_150242515.jpg" alt="左右くっつけ状態" style="width:32%"> <img src=".src/img/PXL_20250213_150404449.jpg" alt="マイコンボードのマウント" style="width:32%">
+<img src=".src/img/PXL_20250213_150136355.jpg" alt="分割状態" style="width:32%"> <img src=".src/img/PXL_20250213_150242515.jpg" alt="左右くっつけ状態" style="width:32%"> <img src=".src/img/PXL_20251005_034931253.jpg" alt="使用シーン" style="width:32%">
 
 # Status / ステータス
 
 - バージョン1.1です。
 - Windows 10/11、Ubuntu 22.04/24.04で動作確認できています。
-- コストはおよそ10,000~15,000円/セットです。
+- コストはおよそ10,000~15,000円/両手セットです。(サイズや製造工程を工夫するともっと安くなります。)
 - 不具合はなく、完成度は及第点ぐらいです。
 
 # Circuit / 回路
@@ -29,8 +29,7 @@
 # Program / プログラム
 
 - リポジトリ: https://github.com/YuukiUmeta-UIAP/rv003usb/tree/custom/main/demo_pikokey_hid
-- 前提環境：あらかじめ「最新のオリジナルch32fun開発環境ではじめる」でLチカまでしておきます。ビルド済みのバイナリファイルを書き込むだけ(ビルドしない)なら、Windowsなら[minichlink.exe](https://github.com/cnlohr/ch32fun/blob/master/minichlink/minichlink.exe)をダウンロードするだけでOKです。  
-    https://www.uiap.jp/uiapduino/pro-micro/ch32v003/v1dot4#with-ch32fun-development-environment
+- 前提環境：あらかじめ「[最新のオリジナルch32fun開発環境ではじめる](https://www.uiap.jp/uiapduino/pro-micro/ch32v003/v1dot4#with-ch32fun-development-environment)」でLチカまでしておきます。ビルド済みのバイナリファイルを書き込むだけ(ビルドしない)なら、Windowsなら[minichlink.exe](https://github.com/cnlohr/ch32fun/blob/master/minichlink/minichlink.exe)をダウンロードするだけでOKです。
 
 ## バイナリファイルを書き込む
 
@@ -87,20 +86,25 @@ minichlink -c 0x1209b803 -w pikokey.bin flash
 
 # 開発過程
 
-1. [IKeJI](https://www.ikejima.org/)さんから[Let's split fes: レツプリ祭り](https://www.ikejima.org/projects/2024032-lets-split2.html)の基板をもらったので、改造して動作確認
+1. まずはマイコンボード単体でプログラムの動作確認(できるだけお金を使わず)
+    - 開発環境構築してバイナリファイルの書き込み
+    - ジャンパ線などでキー入力ができるか、キーボードコントローラの振る舞い検証
+    - ビルドしてキーマップ編集し、編集の反映を実機確認
+
+2. [IKeJI](https://www.ikejima.org/)さんから[Let's split fes: レツプリ祭り](https://www.ikejima.org/projects/2024032-lets-split2.html)の基板をもらったので、改造して動作確認
 
     <img src=".src/img/PXL_20250120_132242160.jpg" alt="改造1" style="width:32%"> <img src=".src/img/PXL_20250120_132301329.jpg" alt="改造2" style="width:32%"> <img src=".src/img/PXL_20250121_151223214.jpg" alt="改造3" style="width:32%">  
     <img src=".src/img/PXL_20250121_151257683.jpg" alt="改造詳細1" style="width:32%"> <img src=".src/img/PXL_20250505_040332651.jpg" alt="改造詳細2" style="width:32%"> <img src=".src/img/PXL_20250122_151522777.jpg" alt="改造後の動作確認" style="width:32%">  
 
-2. [Self-Made Keyboards in Japan](https://scrapbox.io/self-made-kbds-ja/)のDiscordサーバでIKeJIさんとデバッグ
+3. [Self-Made Keyboards in Japan](https://scrapbox.io/self-made-kbds-ja/)のDiscordサーバでIKeJIさんとデバッグ
 
-3. 動作確認できたので基板設計して[JLCPCB](https://jlcpcb.com/)に基板製造とPCBAを発注
+4. 動作確認できたので基板設計して[JLCPCB](https://jlcpcb.com/)に基板製造とPCBAを発注
 
     <img src=".src/img/PXL_20250211_135419008.jpg" alt="基板表面" style="width:32%"> <img src=".src/img/PXL_20250211_135333457.jpg" alt="基板裏面" style="width:32%">
 
-4. リード部品を はんだ して、ゴム足を付けたら完成！
+5. リード部品を はんだ して、ゴム足を付けたら完成！
 
-    <img src=".src/img/PXL_20250213_150555474.jpg" alt="左基板実装後の裏面" style="width:32%"> <img src=".src/img/PXL_20250213_150458010.jpg" alt="右基板実装後の裏面" style="width:32%">
+    <img src=".src/img/PXL_20250213_150555474.jpg" alt="左基板実装後の裏面" style="width:32%"> <img src=".src/img/PXL_20250213_150458010.jpg" alt="右基板実装後の裏面" style="width:32%"> <img src=".src/img/PXL_20250213_150404449.jpg" alt="マイコンボードのマウント" style="width:32%">
 
 # 感想・まとめ
 
@@ -134,7 +138,7 @@ minichlink -c 0x1209b803 -w pikokey.bin flash
 - フットプリントは推奨レイアウトよりタイトめにしてはんだする時のキーのズレを防止
 - 手早くコスパ良く作る、展示のためなのでこだわらない(GNDやviaは考えない)
 
-## 次の妄想
+## 次やりたいこと
 
 - やっぱ左右のペアリング(やる意味はおいといて)
 - 左右が機械的にガッチリ合体できる
