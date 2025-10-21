@@ -58,6 +58,8 @@ It contains all or part of the information necessary to reproduce the applicatio
 - [inajob/CH32V003-GameConsole: Handheld RISC-V Mini Game Console with OLED Display](https://github.com/inajob/CH32V003-GameConsole)
 - [お安くなったUIAPduinoを使って、簡易スペアナとモールス信号のデコーダーを作ってみました。](https://x.com/pokibon/status/1973356650405961889)
 - [CH32V003でブロック崩しをつくった記録 ― ChatGPTがククトニアンと一緒にゲームを開発した7つのステップ ―](https://kuktonian.blogspot.com/2025/10/20251011.html)
+- [ADCTOUCH + USB-MIDI example for UIAPDuino](https://github.com/hsgw/midi_sampler)
+  - Recommended to play with [MIDI Sampler](https://github.com/hsgw/midi_sampler)
 
 ## Crafts / 作品
 
