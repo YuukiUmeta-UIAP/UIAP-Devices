@@ -86,6 +86,7 @@ It may need to be categorized or organized.
 - [創り手と直接話せて楽しいNT加賀2025、UIAPduinoで三三七拍子](https://fukuno.jig.jp/4596)
 - [UIAPduinoで遊ぶ　#1｜じゃけさん](https://note.com/jake_nagoya_mh/n/n2b382907497f)
 - [つくろがや3でゲットしたおみやげを全部使う！ | ProtoPedia](https://protopedia.net/prototype/6719)
+- [UIAPduino Pro Micro CH32V003 V1.4 と OLED SSD1306 – ぱらめでぃうす](https://parame.mwj.jp/wp/archives/1290)
 
 ## Media / メディア
 
