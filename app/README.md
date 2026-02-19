@@ -78,6 +78,7 @@ Introduction of applications that are clearly working and unique.
 - [I'm following the trend too: : r/cyberDeck](https://www.reddit.com/r/cyberDeck/comments/1jb4ria/im_following_the_trend_too/)
 - [Just a "party trick" | UIAPduino Pro Micro CH32V003 V1.4 - YouTube](https://www.youtube.com/watch?v=YItTtpDSDTk)
 - [Gemini CLI(無料枠)だけで携帯ゲーム向けの2048が作れた！ - YouTube](https://www.youtube.com/watch?v=ztnDVnJdpo0)
+- [UIAPduino 用ブレイクアウトボード - GitHub](https://github.com/53175ddd/UIAPduino-breakout-board)
 
 ## Tips / ヒント
 
