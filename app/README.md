@@ -114,3 +114,4 @@ It may not be appropriate to include it in this repository.
 - [290円マイコン、はじめました。－ UIAPduinoで楽しむ電子工作の第一歩 －](https://techbookfest.org/product/sDGEXY3qqMqBZvXUbQGVTV)
   - Buy now: [Melonbooks](https://www.melonbooks.co.jp/detail/detail.php?product_id=3346303) / [BOOTH](https://booth.pm/ja/items/7707666) / [架空ストア](https://store.retro-biz.com/i24085.html) / [Amazon](https://www.amazon.co.jp/dp/B0GJDMKQBL)
 - [290円のCH32V003開発ボード「UIAPduino Pro Micro」発売、教育向けに充実ドキュメント - FabScene（ファブシーン）](https://fabscene.com/new/news/uiapduino-pro-micro-ch32v003-v14-290yen/)
+- [格安のArduino互換ボード「UIAPduino」で遊んでみる](https://youtu.be/gxkIzgORHtE)
