@@ -68,6 +68,10 @@ It contains all or part of the information necessary to reproduce the applicatio
 - [UIAP KEYER](https://www.gejigeji.com/?page_id=1045)
   - [UIAP Message Keyer (CH32V003) Ver1.2](https://github.com/pokibon3/uiap_message_keyer)
 - [UIAPduino Pro Microを使った格安マクロパッドをつくってみた【書きかけ】｜まーびい](https://note.com/marby/n/na17e2f9e2e09)
+- ものづくり情報局: CH32V003マイコン
+  - [１　Arduino環境開発](https://zk-lab-jima.blogspot.com/2026/02/ch32v003arduino.html)
+  - [２　制御学習のための制御ボード設計](https://zk-lab-jima.blogspot.com/2026/02/ch32v003.html)
+  - [３　制御学習のためのプログラミング](https://zk-lab-jima.blogspot.com/2026/02/ch32v003_24.html)
 
 ## Crafts / 作品
 
@@ -97,6 +101,7 @@ It may need to be categorized or organized.
 - [つくろがや3でゲットしたおみやげを全部使う！ | ProtoPedia](https://protopedia.net/prototype/6719)
 - [UIAPduino Pro Micro CH32V003 V1.4 と OLED SSD1306 – ぱらめでぃうす](https://parame.mwj.jp/wp/archives/1290)
 - [VXQの無線運用、製作: UIAPduino Pro Micro CH32V003 V1.4を動作させてみました](https://coselec1500.blogspot.com/2025/12/uiapduino-pro-micro-ch32v003-v14.html)
+- [ククトニアンの自由研究日記: シフトレジスタ［74HC595］初挑戦　UIAPduino 11番ピンに　落とし穴があった](https://kuktonian.blogspot.com/2026/02/74hc595uiapduino-11.html)
 
 ## Media / メディア
 
