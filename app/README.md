@@ -73,6 +73,7 @@ It contains all or part of the information necessary to reproduce the applicatio
   - [２　制御学習のための制御ボード設計](https://zk-lab-jima.blogspot.com/2026/02/ch32v003.html)
   - [３　制御学習のためのプログラミング](https://zk-lab-jima.blogspot.com/2026/02/ch32v003_24.html)
 - [uiapduino-blink-rs: Demo for UIAPduino Pro Micro CH32V003 written in Rust](https://github.com/shimon1024/uiapduino-blink-rs)
+- [Rust uiap-hal-template](https://github.com/moyashi170607/uiap-hal-template)
 
 ## Crafts / 作品
 
