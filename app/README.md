@@ -59,7 +59,7 @@ It contains all or part of the information necessary to reproduce the applicatio
 - [UIAPduino Sample Programs](https://github.com/pokibon3/UIAPduino)
   - [お安くなったUIAPduinoを使って、簡易スペアナとモールス信号のデコーダーを作ってみました。](https://x.com/pokibon/status/1973356650405961889)
 - [CH32V003でブロック崩しをつくった記録 ― ChatGPTがククトニアンと一緒にゲームを開発した7つのステップ ―](https://kuktonian.blogspot.com/2025/10/20251011.html)
-- [ADCTOUCH + USB-MIDI example for UIAPDuino](https://github.com/hsgw/midi_sampler)
+- [ADCTOUCH + USB-MIDI example for UIAPDuino](https://github.com/hsgw/ch32_adctouch_usbmidi)
   - Recommended to play with [MIDI Sampler](https://github.com/hsgw/midi_sampler)
 - MAX31855でこて先温度計
   - [MAX31855でこて先温度計（設計編） - 3ギガ10センチ](https://norichiwo.hatenablog.com/entry/2025/11/13/231647)
