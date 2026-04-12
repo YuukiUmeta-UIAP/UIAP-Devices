@@ -86,6 +86,15 @@ Introduction of applications that are clearly working and unique.
 - [Gemini CLI(無料枠)だけで携帯ゲーム向けの2048が作れた！ - YouTube](https://www.youtube.com/watch?v=ztnDVnJdpo0)
 - [UIAPduino 用ブレイクアウトボード - GitHub](https://github.com/53175ddd/UIAPduino-breakout-board)
 
+## Videos / 動画
+
+A list of videos with tags generated automatically.
+
+タグの付けられた動画が機械的に一覧表示されるもの。
+
+- [#uiapduino - YouTube](https://www.youtube.com/hashtag/uiapduino)
+- [動画タグ検索「UIAPduino」- ニコニコ動画](https://www.nicovideo.jp/tag/UIAPduino)
+
 ## Tips / ヒント
 
 Information that is beneficial when using the devices.
