@@ -74,6 +74,9 @@ It contains all or part of the information necessary to reproduce the applicatio
   - [３　制御学習のためのプログラミング](https://zk-lab-jima.blogspot.com/2026/02/ch32v003_24.html)
 - [uiapduino-blink-rs: Demo for UIAPduino Pro Micro CH32V003 written in Rust](https://github.com/shimon1024/uiapduino-blink-rs)
 - [Rust uiap-hal-template](https://github.com/moyashi170607/uiap-hal-template)
+- [PIXPAPER-213-M Arduino用電子ペットアプリ](https://github.com/open-ep/arduino-user-space-examples/tree/main/uiap/pixpaper-213-m/pet-demo)
+- [PIXPAPER-213-C Arduino用画面更新（クイックアップデート）アプリ](https://github.com/open-ep/arduino-user-space-examples/tree/main/uiap/pixpaper-213-c/quick-update)
+- [PIXPAPER-213-M Zephyr ランタイム画面更新アプリ](https://github.com/open-ep/zephyr-user-space-examples)
 
 ## Crafts / 作品
 
