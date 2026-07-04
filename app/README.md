@@ -85,6 +85,7 @@ Introduction of applications that are clearly working and unique.
 - [Just a "party trick" | UIAPduino Pro Micro CH32V003 V1.4 - YouTube](https://www.youtube.com/watch?v=YItTtpDSDTk)
 - [Gemini CLI(無料枠)だけで携帯ゲーム向けの2048が作れた！ - YouTube](https://www.youtube.com/watch?v=ztnDVnJdpo0)
 - [UIAPduino 用ブレイクアウトボード - GitHub](https://github.com/53175ddd/UIAPduino-breakout-board)
+- [UIAPduino対応 CP2102N搭載 小型USBシリアル変換モジュール](https://github.com/bigbenbigben/Tiny-USB-Serial-Module)
 
 ## Videos / 動画
 
