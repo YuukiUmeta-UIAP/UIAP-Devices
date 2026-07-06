@@ -1,0 +1,7 @@
+profiles:
+  default:
+    fqbn: UIAP_HID:ch32v:CH32V003:usb=nousb,opt=oslto
+    platforms:
+      - platform: UIAP_HID:ch32v
+        platform_index_url: https://github.com/tarosay/board_manager_files/raw/main/package_uiap_hid_index.json
+default_profile: default
