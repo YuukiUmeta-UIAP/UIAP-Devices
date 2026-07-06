@@ -1,0 +1,7 @@
+# DesignSpark PCB binary files
+*.cml binary
+*.cmx binary
+*.ssl binary
+*.ssx binary
+*.psl binary
+*.psx binary
