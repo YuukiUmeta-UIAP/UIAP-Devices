@@ -48,6 +48,14 @@ URLアクセスできるものならツイッターや個人ブログ、シェ�
 ぜひ追加してシェアしてください。
 修正や追加はPRをお願いします。
 
+## Development Environment / 開発環境
+
+- [WebLink-USB](https://subjectiverealitylabs.com/WeblinkUSB/) ([old mirror](https://weblink-usb.uiap.jp/) / [source code](https://github.com/Subjective-Reality-Labs/WebLink_USB))
+- [CH32V003 Workbench](https://ikeji.github.io/ch32v003workbench/) ([source code](https://github.com/ikeji/ch32v003workbench))
+- [UIAPduino Pro Micro CH32V003 — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/boards/uiap/uiapduino_pro_micro_ch32v003/doc/index.html)
+- [Releases · tarosay/scratch3-uiapduino](https://github.com/tarosay/scratch3-uiapduino/releases)
+- [otty — CH32V003 Blockly](https://otty-software.pages.dev/)
+
 ## Reproducible / 再現可能
 
 It contains all or part of the information necessary to reproduce the application.
