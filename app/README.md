@@ -53,6 +53,8 @@ URLアクセスできるものならツイッターや個人ブログ、シェ�
 - [WebLink-USB](https://subjectiverealitylabs.com/WeblinkUSB/) ([old mirror](https://weblink-usb.uiap.jp/) / [source code](https://github.com/Subjective-Reality-Labs/WebLink_USB))
 - [CH32V003 Workbench](https://ikeji.github.io/ch32v003workbench/) ([source code](https://github.com/ikeji/ch32v003workbench))
 - [UIAPduino Pro Micro CH32V003 — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/boards/uiap/uiapduino_pro_micro_ch32v003/doc/index.html)
+- [UIAPduino WebHID Lab](https://tarosay.github.io/uiap-hid-web/) ([source code](https://github.com/tarosay/uiap-hid-web))
+- [tarosay/arduino_core_ch32](https://github.com/tarosay/arduino_core_ch32) : Arduino core of UIAPduino with ahead commits
 - [Releases · tarosay/scratch3-uiapduino](https://github.com/tarosay/scratch3-uiapduino/releases)
   - [Xcratch](https://xcratch.github.io/editor/?extension=https://tarosay.github.io/scratch3-uiapduino/uiapduino.mjs)
 - [otty — CH32V003 Blockly](https://otty-software.pages.dev/)
