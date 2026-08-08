@@ -54,6 +54,7 @@ URLアクセスできるものならツイッターや個人ブログ、シェ�
 - [CH32V003 Workbench](https://ikeji.github.io/ch32v003workbench/) ([source code](https://github.com/ikeji/ch32v003workbench))
 - [UIAPduino Pro Micro CH32V003 — Zephyr Project Documentation](https://docs.zephyrproject.org/latest/boards/uiap/uiapduino_pro_micro_ch32v003/doc/index.html)
 - [Releases · tarosay/scratch3-uiapduino](https://github.com/tarosay/scratch3-uiapduino/releases)
+  - [Xcratch](https://xcratch.github.io/editor/?extension=https://tarosay.github.io/scratch3-uiapduino/uiapduino.mjs)
 - [otty — CH32V003 Blockly](https://otty-software.pages.dev/)
 
 ## Reproducible / 再現可能
